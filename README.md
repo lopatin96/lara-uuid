@@ -7,3 +7,15 @@ You can install this package via composer:
 ```bash
 composer require lopatin96/lara-uuid
 ```
+
+### Trait
+Add **HasUuidIdentifiable** trait to your models
+
+```php
+
+use Lopatin96\LaraUuid\Traits\HasUuid;
+
+class User extends Authenticatable
+{
+    use HasUuid, …
+```

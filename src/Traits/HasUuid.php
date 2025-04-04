@@ -1,6 +1,6 @@
 <?php
 
-namespace Atin\LaravelUuidIdentifiable\Traits;
+namespace Lopatin96\LaraUuid\Traits;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Str;
