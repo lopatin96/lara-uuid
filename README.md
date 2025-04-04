@@ -14,7 +14,7 @@ $table->uuid();
 ```
 
 ### Trait
-Add **HasUuidIdentifiable** trait to your models
+Add **HasUuid** trait to your models
 
 ```php
 
