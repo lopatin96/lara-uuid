@@ -1,0 +1,30 @@
+{
+    "name": "lopatin96/lara-uuid",
+    "description": "",
+    "autoload": {
+        "psr-4": {
+            "Lopatin96\\LaraUuid\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Lopatin96\\LaraUuid\\LaraUuidServiceProvider"
+            ]
+        }
+    },
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vladyslav Lopatin",
+            "email": "ilopatin3@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.4"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^10.0"
+    }
+}
