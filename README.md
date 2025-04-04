@@ -8,6 +8,11 @@ You can install this package via composer:
 composer require lopatin96/lara-uuid
 ```
 
+### Migration
+```php
+$table->uuid();
+```
+
 ### Trait
 Add **HasUuidIdentifiable** trait to your models
 
