@@ -5,9 +5,9 @@ namespace Lopatin96\LaraUuid\Traits;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Str;
 
-trait HasUuidIdentifiable
+trait HasUuid
 {
-    public static function bootHasUuidIdentifiable(): void
+    public static function bootHasUuid(): void
     {
         static::creating(static function (Model $model) {
             if (is_null($model->uuid)) {
